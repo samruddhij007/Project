@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter Your Name and select a color:</h1>
+    <form action="save_data.php" method="post">
+        <label for="value">Enter a value:</label>
+        <input type="text" id="value" name="value" required><br><br>
+
+        <label for="color">Select a color:</label>
+        <select id="color" name="color" required>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
